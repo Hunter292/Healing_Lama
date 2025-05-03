@@ -1,0 +1,185 @@
+body{
+    background-color: lightblue;
+    font-family: Didot;
+    margin:0 !important;
+}
+#wrapper{
+    text-align: justify;  
+}
+#container{
+    width:1200px;
+    margin:0px auto;
+}
+header{
+    margin:10px 60px;
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 40px;
+}
+p, h1, h2, h3{
+    margin:10px;
+}
+h1,h2, h3{
+    text-align: center;
+}
+.secabout{
+    font-size: 24px;
+    background-color: #f0ffff;
+    padding: 30px;
+}
+.secllama{
+    font-size: 24px;
+    background-color: #d86f0d;
+    padding: 30px;
+}
+a{
+    display:block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+.sec50 a{
+    height:173px; 
+}
+a:hover{
+    color:aliceblue;
+}
+h1{
+    font-size: 55px;
+}
+#zegar{
+    width:540px;
+}
+
+.sec50{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    text-align: center;
+}
+.about_cost{
+    width:280px;
+    height:173px;
+    margin:10px;
+    background-color:#f0ffff;
+}
+.about_cost:hover{
+    background-color: #d0dddd;
+}
+.trip_price{
+    width:280px;
+    height:173px;
+    margin:10px;
+    background-color: #743206;
+}
+.trip_price:hover{
+    background-color: #632105;
+}
+#whyllama{
+    width:580px;
+    height:173px;
+    margin:10px;
+    background-color: #d86f0d;
+}
+#whyllama:hover{
+    background-color: #c76e0c;
+}
+#llama{
+    width:580px;
+    height:366px;
+    margin:10px;
+}
+#llama img{
+    width:400px;
+    height:400px;
+    margin:0px 90px;
+}
+#quote{
+    width: 520px;
+    height:113px;
+    padding:30px;
+    margin:10px;
+    background-color: #ffe4b5;
+    font-size: 26px;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#slider img{
+    width:1140px;
+    height:760px;
+    padding:20px;
+    background-image: url('img/oak-frame.jpg');
+    margin:10px;
+}
+#footer{
+    margin:30px 60px;
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 25px;
+}
+.img-big{
+    width:1100px;
+    height:733px;
+    padding:20px;
+    margin:15px auto;
+    background-image: url('img/oak-frame.jpg');
+}
+.flexlist{
+    list-style: none;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-between;
+}
+.flexlist li{
+    width:562.5px;
+}
+.flexlist img{
+    width:570px;
+    height: 380px;
+    padding:0px;
+}
+.list{
+    padding: 0px;
+    list-style: none;
+    line-height: 150%;
+    text-align: center;
+}
+li>span{
+    color:dimgrey;
+}
+#menu{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+    margin:40px 0px;
+    align-items: center;
+}
+.linkmenu{
+    color:aliceblue;
+    width: 200px;
+    padding: 36px 0px;
+    border-right:2px dotted aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
+.linkmenu:first-child{
+    border-left: 2px dotted aliceblue;
+}
+.linkmenu:hover{
+    background-color:#474747 ;
+    color:#ffe4b5;
+}
+.sticky{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    margin:0px !important;
+}  
